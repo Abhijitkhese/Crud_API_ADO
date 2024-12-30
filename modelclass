@@ -1,0 +1,27 @@
+namespace Employees_Details_CRUD
+{
+    public class Models
+    {
+        public int id { get ; set; }
+        public string? Name { get; set; }
+        public int Salary { get; set; }
+    }
+
+    public class createDetails
+    {
+        public string? Name { get; set; }
+        public int Salary { get; set; }
+    }
+
+    public class UpdateDetails
+    {
+        public int id { get; set; }
+        public int Salary { get; set; }
+    }
+    public class DeleteDetails
+    {
+        public int id { get; set; }
+    }
+
+
+}
